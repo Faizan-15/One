@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#F8FAFC" android:fillViewport="true" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:padding="28dp">
+
+        <TextView android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_width="wrap_content" android:text="Create Account" android:textColor="#0F172A" android:textSize="28sp" android:textStyle="bold"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:layout_width="wrap_content" android:text="Sign up to get started" android:textColor="#64748B" android:textSize="16sp"/>
+
+        <!-- Username Input -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Choose a Username" android:id="@+id/etSignUpUsername" android:inputType="textPersonName" android:layout_height="52dp" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- Gmail Input -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Enter Gmail (e.g. user@gmail.com)" android:id="@+id/etSignUpGmail" android:inputType="textEmailAddress" android:layout_height="52dp" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- Password Input -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Create Password" android:id="@+id/etSignUpPassword" android:inputType="textPassword" android:layout_height="52dp" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- Confirm Password Input -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Confirm Password" android:id="@+id/etSignUpConfirmPassword" android:inputType="textPassword" android:layout_height="52dp" android:layout_marginBottom="24dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- Sign Up Button -->
+        <Button android:backgroundTint="#16A34A" android:id="@+id/btnRegister" android:layout_height="52dp" android:layout_marginBottom="24dp" android:layout_width="match_parent" android:text="Sign Up" android:textAllCaps="false" android:textColor="#FFFFFF" android:textSize="16sp"/>
+
+        <!-- Hypertext to go back to Login -->
+        <TextView android:id="@+id/tvBackToLogin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="8dp" android:text="Already have an account? Login" android:textColor="#2563EB" android:textSize="16sp" android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

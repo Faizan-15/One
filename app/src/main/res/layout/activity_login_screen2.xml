@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#F8FAFC" android:fillViewport="true" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:padding="28dp">
+
+        <!-- Page Heading -->
+        <TextView android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_width="wrap_content" android:text="Welcome Back" android:textColor="#0F172A" android:textSize="28sp" android:textStyle="bold"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:layout_width="wrap_content" android:text="Login to your account" android:textColor="#64748B" android:textSize="16sp"/>
+
+        <!-- 1. Gmail Input Field -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Enter Gmail (e.g. user@gmail.com)" android:id="@+id/etLoginGmail" android:inputType="textEmailAddress" android:layout_height="52dp" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- 2. Username Input Field -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Enter Username" android:id="@+id/etLoginUsername" android:inputType="textPersonName" android:layout_height="52dp" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- 3. Password Input Field -->
+        <EditText android:background="@android:drawable/edit_text" android:hint="Enter Password" android:id="@+id/etLoginPassword" android:inputType="textPassword" android:layout_height="52dp" android:layout_marginBottom="24dp" android:layout_width="match_parent" android:padding="12dp"/>
+
+        <!-- Standard Login Button -->
+        <Button android:backgroundTint="#2563EB" android:id="@+id/btnLogin" android:layout_height="52dp" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:text="Login" android:textAllCaps="false" android:textColor="#FFFFFF" android:textSize="16sp"/>
+
+        <!-- Sign in with Google Button -->
+        <Button android:backgroundTint="#DB4437" android:id="@+id/btnGoogleSignIn" android:layout_height="52dp" android:layout_marginBottom="28dp" android:layout_width="match_parent" android:text="G   Sign in with Google" android:textAllCaps="false" android:textColor="#FFFFFF" android:textSize="16sp"/>
+
+        <!-- Hypertext to go to Sign Up Page -->
+        <TextView android:id="@+id/tvGoToSignUp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="8dp" android:text="Don't have an account? Sign Up" android:textColor="#2563EB" android:textSize="16sp" android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

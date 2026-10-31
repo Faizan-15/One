@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#1E293B" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:padding="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- App Logo (Uses built-in Android icon so you don't get missing image errors) -->
+    <ImageView android:contentDescription="App Logo" android:layout_height="100dp" android:layout_width="100dp" android:src="@mipmap/ic_launcher_round"/>
+
+    <!-- App Title -->
+    <TextView android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_width="wrap_content" android:text="Welcome to My Demo App" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold"/>
+
+    <!-- Loading Indicator -->
+    <ProgressBar android:indeterminateTint="#38BDF8" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_width="wrap_content"/>
+
+</LinearLayout>
